@@ -73,4 +73,4 @@ foreach ($Item in $Controme) {
     }
     
 }
-$OutArray | Out-file "$ScriptDir\controme.yaml"
+[System.IO.File]::WriteAllLines("$ScriptDir\controme.yaml", $OutArray)
