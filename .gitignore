@@ -6,3 +6,4 @@
 
 # Don't ignore these
 #!*.yaml
+.DS_Store
