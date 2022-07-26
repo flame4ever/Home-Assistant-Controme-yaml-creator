@@ -9,6 +9,8 @@ How I have implemented it:
 2. copy the controme.yaml into the sensors folder
 ![Screenshot](image3.png)
 3. extend your configuration.yaml with the following value "sensors: !include_dir_merge_list sensors"
-![Screenshot](image1.png)
+![Screenshot](image2.png)
 4.after that you should find your Controme rooms in the Hassio
 ![Screenshot](image1.png)
+5. now you can add the sensor to a dashboard
+![Screenshot](image4.png)
