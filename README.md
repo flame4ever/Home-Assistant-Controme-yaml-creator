@@ -24,7 +24,9 @@ You only have to change the $ContromeServerURL to your own Controme server addre
 ## Troubleshooting:
 [API – Controme Support Center](https://support.controme.com/api/#Problembehebung)
 1. /get/json/v1/2/temps und nicht /get/json/v1/1/temps
-    
+        
+        To fix the problem, line 4 $URL = "$ContromeServerURL/get/json/v1/1/temps" in the ps1 script, needs to be adjusted.
+        
         API – Controme Support Center:
 
         API gibt nichts aus
