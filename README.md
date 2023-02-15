@@ -23,7 +23,7 @@ You only have to change the $ContromeServerURL to your own Controme server addre
 
 ## Troubleshooting:
 [API – Controme Support Center](https://support.controme.com/api/#Problembehebung)
-1. /get/json/v1/2/temps und nicht /get/json/v1/1/temps
+1. /get/json/v1/2/temps and not /get/json/v1/1/temps
         
         To fix the problem, line 4 $URL = "$ContromeServerURL/get/json/v1/1/temps" in the ps1 script, needs to be adjusted.
         
@@ -33,7 +33,7 @@ You only have to change the $ContromeServerURL to your own Controme server addre
         Bitte prüfen Sie in diesem Fall zunächst, ob Sie die korrekte Haus-ID verwenden. Aus unterschiedlichen Gründen ist die ID manchmal „2“ und nicht „1“. Der korrekte Endpunkt ist deshalb bei einigen Systemen z.b.
 
         /get/json/v1/2/temps
-        und nicht
+        and not
         /get/json/v1/1/temps
 
 2. No umlauts (like Küche  or Büro) may be used.
