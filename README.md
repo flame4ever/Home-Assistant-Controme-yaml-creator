@@ -12,7 +12,7 @@ You only have to change the $ContromeServerURL to your own Controme server addre
     2. copy the controme.yaml into the sensors folder
     ![Screenshot](image3.png)
 
-    3. extend your configuration.yaml with the following value "sensors: !include_dir_merge_list sensors"
+    3. extend your configuration.yaml with the following value "sensor: !include_dir_merge_list sensors"
     ![Screenshot](image2.png)
 
     4.after that you should find your Controme rooms in the Hassio
